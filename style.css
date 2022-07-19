@@ -2,12 +2,60 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-/* header design  */
+/* ---------- 
+header design 
+-------------- */
+
 .header-container{
-    background-color: black;
+    background-color: #161616;
+    width: 1321px;
+    height: 650px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 30px;
+
 }
 
 .inner-header{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 50px;
+    margin-left: 50px;
+    padding: 50px;
+    align-items: center;
+}
+
+.web-title{
+    width: 530px;
+    height: 425px;
+}
+
+.web-title h1{
+    color: white;
+    font-size: 70px;
+    margin: 0px;
+}
+
+.web-title p {
+    color: white;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.web-title a{
+    text-decoration: none;
+    background-color: darkred;
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+}
+.fa-play{
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+.header-img {
+    width: 580px;
+    height: 610px;
 }
