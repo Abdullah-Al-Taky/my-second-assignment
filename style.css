@@ -8,21 +8,24 @@ header design
 
 .header-container{
     background-color: #161616;
-    width: 1321px;
-    height: 650px;
+    width: 1320px;
+    height: 645px;
     position: relative;
-    margin: 0 auto;
+    margin: 50px 110px;
     border-radius: 30px;
 
 }
 
+.header-container:hover{
+    border-top: 20px solid slategray;
+    border-left: 15px solid slategray;
+}
+
 .inner-header{
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-    grid-gap: 50px;
-    margin-left: 50px;
-    padding: 50px;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
 .web-title{
@@ -50,12 +53,16 @@ header design
     padding: 15px;
     border-radius: 10px;
 }
+.web-title a:hover{
+    border-left: 10px solid fuchsia;
+}
 .fa-play{
     color: whitesmoke;
     margin-left: 10px;
 }
 
-.header-img {
+#top-img {
     width: 580px;
-    height: 610px;
+    height: 595px;
+    margin-top: 50px;
 }
