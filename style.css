@@ -70,7 +70,14 @@ header design
 /* -------------
  Inner Container 
  ---------------- */
-
+.middle-container{
+    width: 1320px;
+    margin: 50px 110px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr auto);
+    gap: 20px;
+    
+}
 .menue{
     background-color: #161616;
     width: 310px;
@@ -80,6 +87,7 @@ header design
     align-items: center;
     justify-content: center;
     gap: 30px;
+    border-radius: 5px;
 }
 .menue-items{
     width: 240px;
@@ -92,4 +100,36 @@ header design
     font-size: 20px;
     padding: 10px;
 }
-
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.blog{
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.top-blog{
+    width: 100%;
+}
+.top-blog img{
+    width: 312px;
+    height: 175px;
+    border-radius:10px 10px 0px 0px ;
+}
+.blog-content{
+    padding: 20px;
+}
+.blog-content a{
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: firebrick;
+    padding:5px;
+}
+.blog-content span{
+    margin-left: 20px;
+}
+.fa-clock,.fa-message{
+    color: red;
+}
