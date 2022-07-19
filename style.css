@@ -133,3 +133,24 @@ header design
 .fa-clock,.fa-message{
     color: red;
 }
+.footer{
+    background-color: #161616;
+    text-align: center;
+    padding: 30px;
+}
+.footer h1{
+    color: white;
+    font-size: 40px;
+}
+.last a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+.footer h3{
+    color: white;
+}
+.footer span{
+    margin-left: 20px;
+    margin-right: 20px;
+}
