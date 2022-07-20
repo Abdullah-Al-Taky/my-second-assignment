@@ -13,13 +13,18 @@ header design
     position: relative;
     margin: 50px 110px;
     border-radius: 30px;
+    box-shadow: rgb(0, 0, 0) 0px 25px 50px -12px;
 
 }
-
 .header-container:hover{
-    border-top: 20px solid slategray;
-    border-left: 15px solid slategray;
-}
+    
+    box-shadow:
+    3px 3px crimson,
+    4px 4px crimson,
+    5px 5px crimson;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+} 
 
 .inner-header{
     display: flex;
@@ -53,12 +58,24 @@ header design
     padding: 15px;
     border-radius: 10px;
 }
-.web-title a:hover{
-    border-left: 10px solid fuchsia;
-}
+/* .web-title a:hover{
+    animation: zoom-in-zoom-out 1s ease infinite;
+} */
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
 .fa-play{
     color: whitesmoke;
     margin-left: 10px;
+    animation: zoom-in-zoom-out 1s ease infinite;
 }
 
 #top-img {
