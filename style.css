@@ -103,6 +103,7 @@ header design
     justify-content: center;
     gap: 30px;
     border-radius: 5px;
+    box-shadow: rgb(0, 0, 0) 0px 25px 50px -12px;
 }
 .menue-items{
     width: 240px;
