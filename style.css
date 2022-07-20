@@ -35,7 +35,7 @@ header design
 
 .web-title h1{
     color: white;
-    font-size: 70px;
+    font-size: 5vw;
     margin: 0px;
 }
 
@@ -62,7 +62,7 @@ header design
 }
 
 #top-img {
-    width: 580px;
+    max-width: 100%;
     height: 595px;
     margin-top: 50px;
 }
@@ -154,3 +154,5 @@ header design
     margin-left: 20px;
     margin-right: 20px;
 }
+/* media responsive */
+
