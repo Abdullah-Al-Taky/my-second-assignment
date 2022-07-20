@@ -58,9 +58,7 @@ header design
     padding: 15px;
     border-radius: 10px;
 }
-/* .web-title a:hover{
-    animation: zoom-in-zoom-out 1s ease infinite;
-} */
+
 @keyframes zoom-in-zoom-out {
     0% {
       transform: scale(1, 1);
@@ -124,7 +122,9 @@ header design
 }
 .blog{
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
 }
 .top-blog{
     width: 100%;
@@ -148,7 +148,8 @@ header design
     margin-left: 20px;
 }
 .fa-clock,.fa-message{
-    color: red;
+    color: firebrick;
+    animation: zoom-in-zoom-out 1s ease infinite;
 }
 .extra{
     margin: 0 auto;
